@@ -19,9 +19,9 @@ namespace Herança
             Numero = numero; Titular = titular; Saldo = saldo;
         }
         //Método de Saque
-        public void Saque(double saldoTotal) {
-            Saldo -= saldoTotal;
-               }
+        public virtual void Saque(double saldoTotal) {
+            Saldo -= saldoTotal + 5.0;
+        }
         //Método de Deposito
         public void Deposito(double saldoTotal) { 
             Saldo += saldoTotal; 
