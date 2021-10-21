@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Herança
 {
-    public class Conta 
+    abstract class Conta 
     {
         //Declarações das variáveis e uso do encapsulamento
         public int Numero { get; private set; }

@@ -22,6 +22,7 @@ namespace Herança
         public void atualizacaoSaldo() { 
             Saldo += Saldo * TaxaJuros;
         }
+        //Método  de Saldo Total
         public override void Saque(double saldoTotal) {
             base.Saque(saldoTotal); 
             Saldo -= 2.0; 

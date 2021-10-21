@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Herança
 {
-   public class ContaJuridica : Conta
+    class ContaJuridica : Conta
     {
          //Declarações das variáveis e uso do encapsulamento
          public double EmprestimoLimite{ get; set; }
